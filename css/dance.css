@@ -263,30 +263,29 @@ header{
     color: white;
 }
 .get-started-input-button{
+    position: relative;
+    text-align: initial;
     width: 70%;
+    padding: 20px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    padding: 25px 0px 50px 0px;
     border-radius: 15px;
 }
 .get-started-input-button input{
     border: 0px;
-    position: absolute;
     outline: none;
-    left: 27%;
-    width: 40%;
 }
 .get-started-input-button button{
     position: absolute;
     font-size: 14px;
     padding: 12px 10px 12px 10px;
     outline: none;
-    right: 29%;
+    right: 4%;
     background-image: linear-gradient(45deg, #f6267d, #bf195e);
     border: 2px solid #dd16bd;
     border-radius: 10px;
-     margin: -13px;
+    margin: -11px;
 }
 .footer-section{
     margin-bottom: 30px;
@@ -484,14 +483,10 @@ header{
         line-height: 15px;
     }
     .get-started-input-button{
-        padding: 22px 0px 45px 0px;
-    }
-    .get-started-input-button input{
-        width: 30%;
+        padding:25px;
     }
     .get-started-input-button button{
-        font-size: 13px;
-        padding: 10px 8px 10px 8px;
+        padding:11px
         margin: -11px;
     }
     .logo-png-div {
@@ -534,7 +529,7 @@ header{
     }
     #the-beat-of-life {
         margin: 0px;
-        font-size: 12px;
+        font-size: 15px;
     }
     #best {
         font-size: 20px;
@@ -563,10 +558,11 @@ header{
         margin-bottom: 60px;
     }
     .danceservice-one h3 {
-        font-size: 15px;
+        font-size: 17px;
     }
     .danceservice-one h1 {
         font-size: 20px;
+    	font-weight: 600;
         margin-bottom: 35px;
         margin-top: 20px;
     }
@@ -576,6 +572,7 @@ header{
     }
     .rhythmic-rhythms-one h4 {
         font-size: 14px;
+	font-weight: 700;
     }
     .rhythmic-rhythms-one p {
         font-size: 12px;
@@ -595,11 +592,11 @@ header{
         padding-left: 12px;
     }
     .aboutus h4 {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 500;
     }
     .aboutus h1 {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 600;
         line-height: 30px;
     }
@@ -617,9 +614,10 @@ header{
         margin-left: 5px;
     }
     .testimontals h4 {
-        font-size: 15px;
+        font-size: 17px;
     }
     .testimontals h1 {
+	font-width:600;
         margin-bottom: 20px;
         font-size: 20px;
         margin-top: 10px;
@@ -669,19 +667,15 @@ header{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        padding: 12px 0px 33px 0px;
+        padding:14px;
     }
-    .get-started-input-button input {
-        width: 35%;
-        font-size: 12px;
-        left: 26%;
+    .get-started-input-button{
+	font-size:12px;
     }
     .get-started-input-button button {
         font-size: 12px;
-        margin: -5px;
-        padding: 4px 4px;
-        border-radius: 10px;
-        right: 26%;
+    	padding: 6px;
+    	margin: -6px;
     }
     footer{
         text-align: center;
