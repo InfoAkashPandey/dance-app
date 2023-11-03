@@ -1,31 +1,5 @@
-
-header{
-    margin-bottom: 8%;
-}
-.navbar{
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    padding: 0;
-    top: 0px;
-    border-bottom: 2px;
-    box-shadow: 0 0 6px #f1efef;
-}
-.logo-png{
-    padding-left: 8%;
-}
-
-.nav-button-joinenow{
-    justify-content: end;
-    padding-right: 8%;
-}
-
-.nav-button-joinenow button{
-    padding: 15px 30px 15px 30px;
-    color: white;
-    background-image: linear-gradient(45deg, #f6267d, #bf195e);
-    border: 2px solid #dd16bd;
-    border-radius: 10px;
+.nav-iframe{
+    height: 100px;
 }
 .the-beat-of-life-col{
     padding-top: 5%;
@@ -263,61 +237,30 @@ header{
     color: white;
 }
 .get-started-input-button{
-    position: relative;
-    text-align: initial;
     width: 70%;
-    padding: 20px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
+    padding: 25px 0px 50px 0px;
     border-radius: 15px;
 }
 .get-started-input-button input{
     border: 0px;
+    position: absolute;
     outline: none;
+    left: 27%;
+    width: 40%;
 }
 .get-started-input-button button{
     position: absolute;
     font-size: 14px;
     padding: 12px 10px 12px 10px;
     outline: none;
-    right: 4%;
+    right: 29%;
     background-image: linear-gradient(45deg, #f6267d, #bf195e);
     border: 2px solid #dd16bd;
     border-radius: 10px;
-    margin: -11px;
-}
-.footer-section{
-    margin-bottom: 30px;
-    font-size: 14px;
-    font-weight: 600;
-}
-.footer-section hr{
-    border: 1px solid #fb0a6e;
-}
-.footer-div{
-    margin: 0px;
-}
-.logo-png-div{
-    padding: 0px 100px 0px 100px;
-}
-.logo-png-div i{
-    color: black;
-    font-size: 22px;
-    padding: 5px;
-    border: 1px solid;
-    border-radius: 50%;
-    margin: 5px;
-}
-
-.COPYRIGHT{
-    margin-left: 30px;
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: 600;
-}
-.COPYRIGHT-row{
-    margin: 0px;
+     margin: -13px;
 }
 .model-bg-color{
     background-image:linear-gradient(45deg, #cb34c8, #3c93d1);;
@@ -341,22 +284,16 @@ header{
     border: none;
     box-shadow: 0 0 6px #8e1671;
 }
+.footer-iframe{
+    height: 425px;
+}
 
 @media (max-width:992px){
+    .nav-iframe{
+        height: 80px;
+    }
     body{
         background-image: linear-gradient(45deg, #70f2d9, #7a97f8);
-    }
-    header{
-        margin-bottom: 12%;
-    }
-    .navbar{
-        background-color: #3a98e1;
-    }
-    .logo-png img{
-        width: 160px;
-    }
-    .nav-button-joinenow button{
-        padding: 10px 18px;
     }
     #the-beat-of-life{
         margin: 0px;
@@ -483,53 +420,35 @@ header{
         line-height: 15px;
     }
     .get-started-input-button{
-        padding:25px;
+        padding: 22px 0px 45px 0px;
+    }
+    .get-started-input-button input{
+        width: 30%;
     }
     .get-started-input-button button{
-        padding:11px
+        font-size: 13px;
+        padding: 10px 8px 10px 8px;
         margin: -11px;
     }
-    .logo-png-div {
-        padding: 0px 50px 0px 50px;
-    }
-    .row.footer-div h3{
-        font-size: 22px;
-    }
-    .row.footer-div p{
-        font-size: 15px;
-        line-height: 18px;
-    }
-    .COPYRIGHT{
-        margin-left: 30px;
-        margin-right: 20px;
-        font-size: 12px;
+    .footer-iframe{
+        height: 500px;
     }
 
 }
 
 @media (max-width:768px){
+    .nav-iframe{
+        height: 55px;
+    }
     body{
         background-image: linear-gradient(45deg, #32e7ae, #70dee7);
-    }
-    header{
-        margin-bottom: 20%;
-    }
-    .navbar{
-        background-color: #3fede3;
-    }
-    .logo-png img {
-        width: 110px;
-    }
-    .nav-button-joinenow button {
-        padding: 7px 7px;
-        font-size: 13px;
     }
     .row{
         margin: 0px;
     }
     #the-beat-of-life {
         margin: 0px;
-        font-size: 15px;
+        font-size: 12px;
     }
     #best {
         font-size: 20px;
@@ -558,11 +477,10 @@ header{
         margin-bottom: 60px;
     }
     .danceservice-one h3 {
-        font-size: 17px;
+        font-size: 15px;
     }
     .danceservice-one h1 {
         font-size: 20px;
-    	font-weight: 600;
         margin-bottom: 35px;
         margin-top: 20px;
     }
@@ -572,7 +490,6 @@ header{
     }
     .rhythmic-rhythms-one h4 {
         font-size: 14px;
-	font-weight: 700;
     }
     .rhythmic-rhythms-one p {
         font-size: 12px;
@@ -592,11 +509,11 @@ header{
         padding-left: 12px;
     }
     .aboutus h4 {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 500;
     }
     .aboutus h1 {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 30px;
     }
@@ -614,10 +531,9 @@ header{
         margin-left: 5px;
     }
     .testimontals h4 {
-        font-size: 17px;
+        font-size: 15px;
     }
     .testimontals h1 {
-	font-width:600;
         margin-bottom: 20px;
         font-size: 20px;
         margin-top: 10px;
@@ -667,34 +583,22 @@ header{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        padding:14px;
+        padding: 12px 0px 33px 0px;
     }
-    .get-started-input-button{
-	font-size:12px;
+    .get-started-input-button input {
+        width: 35%;
+        font-size: 12px;
+        left: 26%;
     }
     .get-started-input-button button {
         font-size: 12px;
-    	padding: 6px;
-    	margin: -6px;
+        margin: -5px;
+        padding: 4px 4px;
+        border-radius: 10px;
+        right: 26%;
     }
-    footer{
-        text-align: center;
-    }
-    .logo-png-div img{
-        height: 110px;
-    }
-    .logo-png-div i {
-        font-size: 17px;
-    }
-    .row.footer-div h3 {
-        font-size: 20px;
-    }
-    .footer-div-col{
-        padding:20px 0px;
-    }
-    .row.footer-div p {
-        font-size: 14px;
-        line-height: 13px;
+    .footer-iframe{
+        height: 1200px;
     }
 
 }
